@@ -1,0 +1,84 @@
+<resources>
+    <!-- res/layout/activity_main.xml -->
+    <string name="app_name">IFitness</string>
+    <string name="walking">Walking</string>
+    <string name="running">Running</string>
+    <string name="swimming">Swimming</string>
+    <string name="cycling">Cycling</string>
+
+    <!-- java/br.edu.ifsp.dmo.ifitness/MAinActivity.java -->
+    <string name="toggle_open">Open</string>
+    <string name="toggle_close">Close</string>
+
+    <!-- temporary, only for test -->
+    <string name="sport_detail">Sport details</string>
+
+    <!-- res/menu/menu_drawer.xml -->
+    <string name="home">Home</string>
+    <string name="user">User</string>
+    <string name="Profile">Profile</string>
+    <string name="category">Category</string>
+    <string name="logout">Logout</string>
+
+    <!-- res/layout/menu_header_layout.xml -->
+    <string name="login">Login</string>
+
+    <!-- res/layout/activity_user_login.xml -->
+    <string name="user_login_title">Login</string>
+    <string name="user_login_email">example@example.com</string>
+    <string name="user_login_password">Password</string>
+    <string name="user_login_forgot_password">Forgot your password</string>
+    <string name="txt_login_not_account">Don’t have an account?</string>
+    <string name="user_login_btn_register">REGISTER</string>
+    <string name="btn_login">LOGIN</string>
+
+    <!-- res/layout/activity_user_register.xml -->
+    <string name="user_register_title">Register</string>
+    <string name="user_register_name">User Name</string>
+    <string name="user_register_email">example@example.com</string>
+    <string name="user_register_password">Password</string>
+    <string name="btn_register">REGISTER</string>
+
+    <!-- res/layout/activity_user_profile.xml -->
+    <string name="user_profile_title">Profile</string>
+    <string name="user_profile_name">Name</string>
+    <string name="user_profile_surname">Surname</string>
+    <string name="user_profile_email">example@example.com</string>
+    <string name="address">Adress</string>
+    <string name="user_profile_street">Street</string>
+    <string name="user_profile_number">Number</string>
+    <string name="user_profile_complement">Complement</string>
+    <string name="user_profile_district">District</string>
+    <string name="user_profile_city">City</string>
+    <string name="user_profile_zip_code">Zip code</string>
+    <string name="save">SAVE</string>
+    <string-array name="uf">
+        <item>Acre (AC)</item>
+        <item>Alagoas (AL)</item>
+        <item>Amapá (AP)</item>
+        <item>Amazonas (AM)</item>
+        <item>Bahia (BA)</item>
+        <item>Ceará (CE)</item>
+        <item>Distrito Federal (DF)</item>
+        <item>Espírito Santo (ES)</item>
+        <item>Goiás (GO)</item>
+        <item>Maranhão (MA)</item>
+        <item>Mato Grosso (MT)</item>
+        <item>Mato Grosso do Sul (MS)</item>
+        <item>Minas Gerais (MG)</item>
+        <item>Pará (PA)</item>
+        <item>Paraíba (PB)</item>
+        <item> (PR)</item>
+        <item>Pernambuco (PE)</item>
+        <item>Piauí (PI)</item>
+        <item>Rio de Janeiro (RJ)</item>
+        <item>Rio Grande do Norte (RN)</item>
+        <item>Rio Grande do Sul (RS)</item>
+        <item>Rondônia (RO)</item>
+        <item>Roraima (RR)</item>
+        <item>Santa Catarina (SC)</item>
+        <item>São Paulo (SP)</item>
+        <item>Sergipe (SE)</item>
+        <item>Tocantins (TO)</item>
+    </string-array>
+</resources>

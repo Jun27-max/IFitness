@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.ifsp.dmo.ifitness">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_ifitness"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_ifitness_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IFitness">
+        <activity
+            android:name=".UserRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailSportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+    </application>
+
+</manifest>

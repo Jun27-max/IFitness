@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- res/layout/activity_main.xml -->
+    <string name="app_name">IFitness</string>
+    <string name="walking">Caminhada</string>
+    <string name="running">Corrida</string>
+    <string name="swimming">Natação</string>
+    <string name="cycling">Ciclismo</string>
+
+    <!-- java/br.edu.ifsp.dmo.ifitness/MAinActivity.java -->
+    <string name="toggle_open">Open</string>
+    <string name="toggle_close">Close</string>
+
+    <!-- temporário, apenas para teste -->
+    <string name="sport_detail">Detalhes do esporte</string>
+
+    <!-- res/menu/menu_drawer.xml -->
+    <string name="home">Home</string>
+    <string name="user">Usuário</string>
+    <string name="Profile">Perfil</string>
+    <string name="category">Categoria</string>
+    <string name="logout">Sair</string>
+
+    <!-- res/layout/menu_header_layout.xml -->
+    <string name="login">Entrar</string>
+
+    <!-- res/layout/activity_user_login.xml -->
+    <string name="user_login_title">Login</string>
+    <string name="user_login_email">exemplo@exemplo.com</string>
+    <string name="user_login_password">Senha</string>
+    <string name="user_login_forgot_password">Esqueceu sua senha</string>
+    <string name="txt_login_not_account">Não tem uma conta?</string>
+    <string name="user_login_btn_register">CADASTRAR</string>
+    <string name="btn_login">ENTRAR</string>
+
+    <!-- res/layout/activity_user_register.xml -->
+    <string name="user_register_title">Cadastro</string>
+    <string name="user_register_name">Nome de Usuário</string>
+    <string name="user_register_email">exemplo@exemplo.com</string>
+    <string name="user_register_password">Senha</string>
+    <string name="btn_register">CADASTRAR</string>
+
+    <!-- res/layout/activity_user_profile.xml -->
+    <string name="user_profile_title">Perfil</string>
+    <string name="user_profile_name">Nome</string>
+    <string name="user_profile_surname">Sobrenome</string>
+    <string name="user_profile_email">exemplo@exemplo.com</string>
+    <string name="address">Endereço</string>
+    <string name="user_profile_street">Rua</string>
+    <string name="user_profile_number">Número</string>
+    <string name="user_profile_complement">Complemento</string>
+    <string name="user_profile_district">Bairro</string>
+    <string name="user_profile_city">Cidade</string>
+    <string name="user_profile_zip_code">CEP</string>
+    <string name="save">SALVAR</string>
+    <string-array name="uf">
+        <item>Acre (AC)</item>
+        <item>Alagoas (AL)</item>
+        <item>Amapá (AP)</item>
+        <item>Amazonas (AM)</item>
+        <item>Bahia (BA)</item>
+        <item>Ceará (CE)</item>
+        <item>Distrito Federal (DF)</item>
+        <item>Espírito Santo (ES)</item>
+        <item>Goiás (GO)</item>
+        <item>Maranhão (MA)</item>
+        <item>Mato Grosso (MT)</item>
+        <item>Mato Grosso do Sul (MS)</item>
+        <item>Minas Gerais (MG)</item>
+        <item>Pará (PA)</item>
+        <item>Paraíba (PB)</item>
+        <item> (PR)</item>
+        <item>Pernambuco (PE)</item>
+        <item>Piauí (PI)</item>
+        <item>Rio de Janeiro (RJ)</item>
+        <item>Rio Grande do Norte (RN)</item>
+        <item>Rio Grande do Sul (RS)</item>
+        <item>Rondônia (RO)</item>
+        <item>Roraima (RR)</item>
+        <item>Santa Catarina (SC)</item>
+        <item>São Paulo (SP)</item>
+        <item>Sergipe (SE)</item>
+        <item>Tocantins (TO)</item>
+    </string-array>
+</resources>
